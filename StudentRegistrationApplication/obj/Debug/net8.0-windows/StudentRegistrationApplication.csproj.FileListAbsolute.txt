@@ -1,0 +1,16 @@
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\bin\Debug\net8.0-windows\StudentRegistrationApplication.exe
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\bin\Debug\net8.0-windows\StudentRegistrationApplication.deps.json
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\bin\Debug\net8.0-windows\StudentRegistrationApplication.runtimeconfig.json
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\bin\Debug\net8.0-windows\StudentRegistrationApplication.dll
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\bin\Debug\net8.0-windows\StudentRegistrationApplication.pdb
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.StudentRegistrationApplication.resources
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.csproj.GenerateResource.cache
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.AssemblyInfoInputs.cache
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.AssemblyInfo.cs
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.csproj.CoreCompileInputs.cache
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.dll
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\refint\StudentRegistrationApplication.dll
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.pdb
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\StudentRegistrationApplication.genruntimeconfig.cache
+C:\Users\marvi\Desktop\Advanced C#\StudentRegistrationApplication\obj\Debug\net8.0-windows\ref\StudentRegistrationApplication.dll
