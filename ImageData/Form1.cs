@@ -22,16 +22,13 @@ namespace ImageData
             string emailaddress = emailAddressTxtbox.Text;
             string phonenumber = phoneNumberTxtbox.Text;
 
-            // Ensure you have a valid image in the picture box before saving
             if (pictureBox1.Image != null)
             {
                 using (MemoryStream ms = new MemoryStream())
                 {
-                    // Save the image to the memory stream
                     pictureBox1.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
                     byte[] imageBytes = ms.ToArray();
 
-                    // Insert the data into the database
                     string connectionString = "Data Source=MARVIN\\SQLEXPRESS01;Initial Catalog=UserData;Integrated Security=True;"; // Update with your connection string
 
                     try
