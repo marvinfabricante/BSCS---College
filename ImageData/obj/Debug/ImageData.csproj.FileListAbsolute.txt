@@ -1,0 +1,11 @@
+C:\Users\marvi\source\repos\ImageData\bin\Debug\ImageData.exe.config
+C:\Users\marvi\source\repos\ImageData\bin\Debug\ImageData.exe
+C:\Users\marvi\source\repos\ImageData\bin\Debug\ImageData.pdb
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.csproj.AssemblyReference.cache
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.Form1.resources
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.Properties.Resources.resources
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.csproj.GenerateResource.cache
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.csproj.CoreCompileInputs.cache
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.exe
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.pdb
+C:\Users\marvi\source\repos\ImageData\obj\Debug\ImageData.UserControl1.resources
