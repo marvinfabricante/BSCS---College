@@ -1,0 +1,11 @@
+C:\Users\marvi\Desktop\CashierApplication\bin\Debug\CashierApplication.exe.config
+C:\Users\marvi\Desktop\CashierApplication\bin\Debug\CashierApplication.exe
+C:\Users\marvi\Desktop\CashierApplication\bin\Debug\CashierApplication.pdb
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.csproj.AssemblyReference.cache
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.frmLoginAccount.resources
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.frmPurchaseDiscountedItem.resources
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.Properties.Resources.resources
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.csproj.GenerateResource.cache
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.csproj.CoreCompileInputs.cache
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.exe
+C:\Users\marvi\Desktop\CashierApplication\obj\Debug\CashierApplication.pdb
