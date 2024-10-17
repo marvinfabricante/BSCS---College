@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CashierApplication
 {
     public abstract class Item
     {
+        #region -- Item Abstract Base Class: Represents a generic item with a name, price, and quantity --
         protected string item_name;
         protected double item_price;
         protected int item_quantity;
@@ -37,17 +34,15 @@ namespace CashierApplication
 
         public double Item_Price
         {
-            get { return item_price; }
-            set { item_price = value; }
+            get { return this.item_price; }
+            set { this.item_price = value; }
         }
 
         public int Item_Quantity
         {
-            get { return item_quantity; }
-            set { item_quantity = value; }
+            get { return this.item_quantity; }
+            set { this.item_quantity = value; }
         }
-
+        #endregion
     }
 }
-
-// I

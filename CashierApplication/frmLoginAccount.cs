@@ -12,8 +12,7 @@ namespace CashierApplication
         {
             InitializeComponent();
             this.CenterToScreen();
-
-            cashier = new Cashier("STI College Ortigas-Cainta", "Marvin Fabricante", "Coach", "MarvinPerli");
+            cashier = new Cashier("Marvin Fabricante", "Marbs", "MarvinPogi", "STI Ortigas-Cainta");
         }
 
         private void BtnLogin_Click(object sender, EventArgs e)
@@ -21,16 +20,14 @@ namespace CashierApplication
             if (cashier.validateLogin(TxtboxUsername.Text, TxtboxPassword.Text))
             {
                 MessageBox.Show($"Welcome {cashier.getFullName()} of {cashier.getDepartment()}");
-                this.Hide();
+                Hide();
                 purchaseItemForm = new frmPurchaseDiscountedItem();
                 purchaseItemForm.Show();
             }
             else
             {
-                MessageBox.Show("Wrong credentials!");
+                MessageBox.Show("Wrong Credentials!");
             }
         }
     }
 }
-
-// R

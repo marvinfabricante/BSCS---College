@@ -4,7 +4,7 @@ namespace CashierApplication
 {
     public class DiscountedItem : Item
     {
-        #region --  --
+        #region -- DiscountedItem Class: Extends Item Abstract Class --
         private double item_discount;
         private double discounted_price;
         private double payment_amount;
@@ -17,15 +17,15 @@ namespace CashierApplication
 
         public override double getTotalPrice()
         {
-            this.discounted_price = item_price - (item_price * (item_discount * 0.01));
-            Total_Price = item_quantity * (discounted_price);
-            return this.Total_Price;
+            this.discounted_price = item_price - (item_price * (this.item_discount * 0.01));
+            Total_Price = item_quantity * (this.discounted_price);
+            return Total_Price;
         }
 
         public override void setPayment(double amount)
         {
             this.payment_amount = amount;
-            this.change = payment_amount - Total_Price;
+            this.change = this.payment_amount - Total_Price;
         }
 
         public double getChange()
@@ -35,8 +35,8 @@ namespace CashierApplication
 
         public double Item_Discount
         {
-            get { return item_discount; }
-            set { item_discount = value; }
+            get { return this.item_discount; }
+            set { this.item_discount = value; }
         }
 
         public double Discounted_Price
@@ -59,5 +59,3 @@ namespace CashierApplication
         #endregion
     }
 }
-
-// E

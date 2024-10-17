@@ -4,15 +4,16 @@ namespace CashierApplication
 {
     public abstract class UserAccount
     {
+        #region -- UserAccount Abstract Class: Base class --
         private string full_name;
         protected string user_name;
         protected string user_password;
 
-        public UserAccount(string full_name, string user_name, string user_password)
+        public UserAccount(string name, string uName, string password)
         {
-            this.full_name = full_name;
-            this.user_name = user_name;
-            this.user_password = user_password;
+            this.full_name = name;
+            this.user_name = uName;
+            this.user_password = password;
         }
 
         public abstract bool validateLogin(string uName, string password);
@@ -21,7 +22,6 @@ namespace CashierApplication
         {
             return this.full_name;
         }
+        #endregion
     }
 }
-
-/*  andali naman neto tanginang sti yan oh sayang tuition  */

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{78087E74-5D8F-4154-BFB0-C756CA9D565E}</ProjectGuid>
+    <ProjectGuid>{7A68D75D-BEAE-4067-B195-7020F17ADA92}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CashierApplication</RootNamespace>
     <AssemblyName>CashierApplication</AssemblyName>

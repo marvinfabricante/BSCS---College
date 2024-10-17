@@ -39,53 +39,53 @@
             // 
             this.LblUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LblUsername.AutoSize = true;
-            this.LblUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblUsername.Location = new System.Drawing.Point(7, 9);
+            this.LblUsername.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblUsername.Location = new System.Drawing.Point(13, 13);
             this.LblUsername.Name = "LblUsername";
-            this.LblUsername.Size = new System.Drawing.Size(110, 25);
+            this.LblUsername.Size = new System.Drawing.Size(106, 30);
             this.LblUsername.TabIndex = 0;
             this.LblUsername.Text = "Username";
             // 
             // TxtboxUsername
             // 
             this.TxtboxUsername.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.TxtboxUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtboxUsername.Location = new System.Drawing.Point(12, 37);
+            this.TxtboxUsername.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtboxUsername.Location = new System.Drawing.Point(19, 46);
             this.TxtboxUsername.Name = "TxtboxUsername";
-            this.TxtboxUsername.Size = new System.Drawing.Size(244, 31);
+            this.TxtboxUsername.Size = new System.Drawing.Size(217, 35);
             this.TxtboxUsername.TabIndex = 1;
             // 
             // TxtboxPassword
             // 
             this.TxtboxPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.TxtboxPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtboxPassword.Location = new System.Drawing.Point(12, 99);
+            this.TxtboxPassword.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtboxPassword.Location = new System.Drawing.Point(20, 117);
             this.TxtboxPassword.Name = "TxtboxPassword";
             this.TxtboxPassword.PasswordChar = '●';
-            this.TxtboxPassword.Size = new System.Drawing.Size(245, 31);
+            this.TxtboxPassword.Size = new System.Drawing.Size(216, 35);
             this.TxtboxPassword.TabIndex = 3;
             // 
             // LblPassword
             // 
             this.LblPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LblPassword.AutoSize = true;
-            this.LblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPassword.Location = new System.Drawing.Point(7, 71);
+            this.LblPassword.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPassword.Location = new System.Drawing.Point(14, 84);
             this.LblPassword.Name = "LblPassword";
-            this.LblPassword.Size = new System.Drawing.Size(106, 25);
+            this.LblPassword.Size = new System.Drawing.Size(99, 30);
             this.LblPassword.TabIndex = 2;
             this.LblPassword.Text = "Password";
             // 
             // BtnLogin
             // 
             this.BtnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.BtnLogin.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.BtnLogin.BackColor = System.Drawing.SystemColors.Highlight;
             this.BtnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLogin.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnLogin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnLogin.Location = new System.Drawing.Point(11, 146);
+            this.BtnLogin.Location = new System.Drawing.Point(20, 167);
             this.BtnLogin.Name = "BtnLogin";
-            this.BtnLogin.Size = new System.Drawing.Size(245, 40);
+            this.BtnLogin.Size = new System.Drawing.Size(216, 35);
             this.BtnLogin.TabIndex = 4;
             this.BtnLogin.Text = "Login";
             this.BtnLogin.UseVisualStyleBackColor = false;
@@ -95,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(267, 204);
+            this.ClientSize = new System.Drawing.Size(254, 221);
             this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.TxtboxPassword);
             this.Controls.Add(this.LblPassword);
@@ -104,7 +104,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frmLoginAccount";
-            this.ShowIcon = false;
             this.Text = "User Login";
             this.ResumeLayout(false);
             this.PerformLayout();

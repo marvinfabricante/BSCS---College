@@ -1,12 +1,11 @@
-﻿using System;
-
-namespace CashierApplication
+﻿namespace CashierApplication
 {
     public class Cashier : UserAccount
     {
+        #region -- Cashier Class: Derived from UserAccount --
         private string department;
 
-        public Cashier(string department, string full_name, string user_name, string user_password) : base(full_name, user_name, user_password)
+        public Cashier(string name, string uName, string password, string department) : base(name, uName, password)
         {
             this.department = department;
         }
@@ -20,7 +19,6 @@ namespace CashierApplication
         {
             return this.department;
         }
+        #endregion
     }
 }
-
-// P
